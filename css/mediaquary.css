@@ -1,0 +1,44 @@
+
+/* @media only screen and (max-width: 1552px){
+    .connntet .container  {
+
+        top: 50%;
+        left:8% ;
+        
+    }
+    .connntet  .container   .location{
+        padding: 10px;
+    }
+    /* .connntet  .container .search{
+        
+        padding: 20px 17px;
+    } */
+     */
+}
+
+
+@media only screen and (max-width: 1024px){
+    .connntet .container  {
+
+        width:90%;
+        font-size: 50px;
+    }
+.connntet  .container   .location{
+        padding: 10px;
+
+    }
+    .connntet  .container .search{
+        padding: 7px 5px;
+    }
+}
+
+
+@media only screen and (max-width: 1024px){
+    
+    .connntet .container  {
+        width:85%;
+        font-size: 6px;
+        
+    }
+    
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="imgs/weather-icon.webp" type="image/png">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/mediaquary.css">
+  <link rel="stylesheet" href="./fontawesome-free-6.4.2-web/fontawesome-free-6.4.2-web/css/all.min.css">
+  <title>Weather</title>
+  <script src="https://kit.fontawesome.com/0c2054a839.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <div class="content">
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container my-4">
+            <a class="navbar-brand ms-5" href="#"><img class="w-25" src="imgs/logo@2x.png" alt="">
+                <div class="logo-type ms-2">
+                    <h1>Weather</h1>
+                    <h6>tagline goes here</h6>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mx-5">
+                    <li class="nav-item me-5">
+                        <a class="nav-link" aria-current="page" href="#"><span> Home</span></a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="#">Live Cameras</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+  <div class="theWeathCont  position-relative ">
+    <div class="img "><img height="400px" src="imgs/banner.png" alt="" class="w-100  "></div>
+    <div class="container  w-100">
+      <form class="position-absolute formm">
+        <input type="text" placeholder="Find your location..."
+          class="w-100 location text-white  py-3 position-relative">
+        <input type="submit" value="Find" class="position-absolute search px-5 text-light fw-normal">
+      </form>
+
+    </div>
+    <div class="container MM position-absolute ">
+                <div class=" content" id="TheData">
+
+
+    </div>
+
+  </div>
+  </div>
+
+  <div class="footer">
+    <div class="container">
+        <div class="vow">
+            <form class="TheLoc d-block">
+                <input class="Einput" type="text" placeholder="Enter your email to subscribe..." id="search">
+                <input class="Sinput" type="submit" value="Subscribe" id="submit">
+            </form>
+            <div class="CR"><p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p></div>
+        </div>
+    </div>
+    <div class="SociIcons">
+        <a href="#"><span><i class="fa fa-facebook"></i></span></a>
+        <a href="#"><span><i class="fa fa-twitter"></i></span></a>
+        <a href="#"><span><i class="fa fa-google-plus"></i></span></a>
+        <a href="#"><span><i class="fa fa-pinterest"></i></span></a>
+    </div>
+</div>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
